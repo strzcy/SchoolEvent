@@ -4,7 +4,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card shadow">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header text-white" style="background: #173648;">
                 <h4 class="mb-0"><i class="fas fa-plus-circle"></i> Tambah Acara Baru</h4>
             </div>
             <div class="card-body">

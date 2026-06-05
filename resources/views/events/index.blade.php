@@ -27,7 +27,7 @@
                 @endif
                 
                 <div class="card-body">
-                    <span class="badge bg-primary mb-2">{{ $event->category }}</span>
+                    <span class="badge mb-2" style="background: #173648; color: white;">{{ $event->category }}</span>
                     <h5 class="card-title">{{ $event->title }}</h5>
                     <p class="card-text text-muted">
                         <i class="fas fa-calendar"></i> {{ date('d M Y', strtotime($event->date)) }}<br>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="card-footer bg-transparent border-0 pb-3">
                     <div class="d-grid gap-2">
-                        <a href="{{ route('event.show', $event->id) }}" class="btn btn-primary">
+                        <a href="{{ route('event.show', $event->id) }}" class="btn" style="background: #173648; color: white;">
                             <i class="fas fa-eye"></i> Lihat Detail Acara
                         </a>
                         

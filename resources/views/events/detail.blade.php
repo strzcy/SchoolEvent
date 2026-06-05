@@ -16,12 +16,12 @@
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
-                        <span class="badge bg-primary mb-3 p-2">{{ $event->category }}</span>
+                        <span class="badge mb-3 p-2" style="background: #173648; color: white;">{{ $event->category }}</span>
                         <h2 class="card-title">{{ $event->title }}</h2>
                         
                         <div class="mb-3">
-                            <p class="mb-1"><i class="fas fa-calendar-alt text-primary"></i> <strong>Tanggal:</strong> {{ date('d F Y', strtotime($event->date)) }}</p>
-                            <p class="mb-1"><i class="fas fa-users text-primary"></i> <strong>Kuota Peserta:</strong> {{ $event->quota }} orang</p>
+                            <p class="mb-1"><i class="fas fa-calendar-alt" style="color: #173648;"></i> <strong>Tanggal:</strong> {{ date('d F Y', strtotime($event->date)) }}</p>
+                            <p class="mb-1"><i class="fas fa-users"></i> <strong>Kuota Peserta:</strong> {{ $event->quota }} orang</p>
                         </div>
                         
                         <div class="mb-4">

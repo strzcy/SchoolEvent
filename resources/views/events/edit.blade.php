@@ -4,7 +4,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card shadow">
-            <div class="card-header bg-warning">
+            <div class="card-header" style="background: #173648; color: white;">
                 <h4 class="mb-0"><i class="fas fa-edit"></i> Edit Acara</h4>
             </div>
             <div class="card-body">
@@ -78,7 +78,7 @@
                     
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                         <a href="{{ route('home') }}" class="btn btn-secondary me-md-2">Batal</a>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn" style="background: #173648; color: white;">
                             <i class="fas fa-update"></i> Update Acara
                         </button>
                     </div>
