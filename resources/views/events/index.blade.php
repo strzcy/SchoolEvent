@@ -3,8 +3,8 @@
 @section('content')
 <div class="row mb-4">
     <div class="col-12 text-center">
-        <h1 class="text-white mb-3">✨ Daftar Acara Sekolah ✨</h1>
-        <p class="text-white-50">Temukan acara menarik dan ikuti keseruannya!</p>
+        <h1 class="text-apa mb-3">✨ Daftar Acara Sekolah ✨</h1>
+        <p class="text-apa-50">Temukan acara menarik dan ikuti keseruannya!</p>
         
         @auth
             @if(Auth::user()->email === 'admin@school.com')
